@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import castro from "../assets/webdevcastro.svg";
+import castro from "../assets/whitelogo.svg";
 
 const DynamicLogo = () => {
   useEffect(() => {
@@ -30,7 +30,7 @@ const DynamicLogo = () => {
   return (
     <>
       <img
-        className="mt-20 mx-auto"
+        className="mt-20 mx-auto  w-[300px]"
         src={castro}
         id="castroLogo"
         alt="Castro Logo"

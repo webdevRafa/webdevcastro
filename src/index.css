@@ -1,10 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+*, ::before, ::after {
+  box-sizing: border-box;
+}
 .getdark {
   background: linear-gradient(#410509, #070627);
 }
 .dark {
   background: #070627;
+}
+
+body {
+  background: #070709;
+
+}
+
+.parallax-container {
+  background-size: cover;
+  background-position: center;
 }

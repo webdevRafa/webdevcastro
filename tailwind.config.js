@@ -6,12 +6,11 @@ export default {
   ],
   theme: {
     colors: {
-      'navy': '#070627',
-      'maroon': '#410509',
-      'red': '#7f0d16',
-      'scarlet': '#d02122',
-      'orange': '#d14704',
-      'orange-light': '#eb7f13',
+      'midnight': '#070709',
+      'med-dark': '#17171E',
+      'misty': '#adb5bd',
+      'golden': '#f9ca24',
+      'arctic': '#4db6ac',
       'white': '#ffffff'
     },
     extend: {},

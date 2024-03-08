@@ -1,15 +1,18 @@
 import DynamicLogo from "./Components/DynamicLogo";
 import DevAndDesign from "./Components/DevAndDesign";
-import About from "./Components/About";
 import "./App.css";
+import Header from "./Components/Header";
+import About from "./Components/About";
 
 function App() {
   return (
     <>
-      <DynamicLogo></DynamicLogo>
+      <Header></Header>
       <About></About>
-      <DevAndDesign></DevAndDesign>
-      <div className="h-[2000px]"></div>
+      <div className="bg-med-dark h-[300px]"></div>
+      <div className="bg-purple h-[300px]"></div>
+      <div className="bg-darkpurple h-[300px]"></div>
+      <div className="bg-white h-[300px]"></div>
     </>
   );
 }
