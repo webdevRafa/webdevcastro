@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.getdark {
+  background: linear-gradient(#410509, #070627);
+}
+.dark {
+  background: #070627;
+}
