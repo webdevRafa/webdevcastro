@@ -1,6 +1,5 @@
-import { Parallax } from "react-parallax";
 import barbershop from "../imgs/barbershop.jpg";
-import DynamicLogo from "./DynamicLogo";
+import logo from "../imgs/logo.svg";
 import { useEffect } from "react";
 
 const Header = () => {
@@ -23,6 +22,11 @@ const Header = () => {
   };
   return (
     <>
+      <div className="absolute pb-[200px] grid items-end justify-center h-full w-full">
+        <div className="flex items-center">
+          <img className="w-48 h-48" src={logo} alt="" />
+        </div>
+      </div>
       <div className="relative w-full h-[100vh]">
         <img
           id="raves"

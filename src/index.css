@@ -20,3 +20,15 @@ body {
   background-size: cover;
   background-position: center;
 }
+.clipper {
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.glow {
+  animation: glow 10s infinite ease-in-out;
+}
+@keyframes glow {
+  0% {filter: grayscale(1)}
+  50% {filter: grayscale(0)}
+  100% {filter: grayscale(1)}
+}
